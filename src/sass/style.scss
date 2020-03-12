@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+*,*::before,*::after {
+  box-sizing: border-box;
+
+}
+:focus,:active {
+  outline: none;
+}
+a:focus,a:active {
+  outline: none;
+}
+html,body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 0 1200px auto;
+}
+@import '../sass/block/button';
+@import '../sass/block/footer';
+@import '../sass/block/header';
+@import '../sass/base/fonts';
+@import '../sass/block/nav';
+@import '../sass/block/help-client';

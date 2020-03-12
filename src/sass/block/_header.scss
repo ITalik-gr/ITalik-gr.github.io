@@ -1,0 +1,46 @@
+
+.header {
+  padding-bottom: 50px;
+  background: linear-gradient(0deg, rgba(152, 195, 232, 0.37) 8.84%, rgba(152, 195, 232, 0) 31.12%);
+  &__wrap {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1;
+  }
+  &__img {
+    width: 50%;
+    img {
+      transform: translateX(-25px);
+      width: 100%;
+    }
+  }
+  &__text {
+    transform: translateX(25px);
+    width: 50%;
+  }
+  &__btn {
+    margin-bottom: 50px;
+  }
+  &__title {
+    margin-top: 60px;
+    font-size: 64px;
+    line-height: 74px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    margin-bottom: 32px;
+  }
+  &__subtitle {
+    margin-bottom: 71px;
+    p {
+      width: 425px;
+      font-size: 16px;
+      line-height: 26px;
+      letter-spacing: 0.05em;
+      color: #1F3F68;
+      opacity: 0.6;
+    }
+  }
+}
