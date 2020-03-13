@@ -53,6 +53,8 @@
       align-items: center;
     }
     &__cli {
+      max-width: 100%;
+      text-align: center;
       &:hover { 
         background: rgba(31, 63, 104, 0.233);
       }
