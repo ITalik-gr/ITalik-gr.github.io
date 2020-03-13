@@ -1,5 +1,6 @@
 
 .help-client {
+  margin-bottom: 190px;
   padding-top: 160px;
   &__title {
     margin-bottom: 160px;
@@ -26,7 +27,7 @@
       margin-left: 90px;
     }
     &_2 {
-      img {
+      .help-client__card__img__img {
         transform: translateY(-80px);
       }
       .help-client__card__title {
