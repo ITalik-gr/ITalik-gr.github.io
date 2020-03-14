@@ -1,0 +1,109 @@
+
+.popular {
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-min {
+    &__wrap {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 35px;
+    }
+  }
+  &__more {
+    margin-top: 50px;
+    text-align: right;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #356EAD;
+
+  }
+}
+.block__title {
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.04em;
+  color: #356EAD;
+  opacity: 0.8;
+  margin-bottom: 30px;
+}
+.main-article {
+  &__text {
+
+  }
+  &__img {
+
+  }
+  &__title {
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+  }
+  &__subtitle {
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    opacity: 0.6;
+    p {
+      width: 380px;
+    }
+  }
+}
+
+.min-article {
+  padding: 5px;
+  max-width: 300px;
+  &__title {
+    margin-top: 15px;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+  }
+  &__subtitle {
+    margin-top: 15px;
+    width: 297px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: rgba(0, 0, 0, 0.6);
+  }
+}
+
+.article {
+  &__info {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    &__text {
+      margin-right: 90px;
+      &__name {
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.04em;
+        color: #1F3F68;
+      }
+      &__date {
+        font-size: 14px;
+        line-height: 24px;
+        color: #1F3F68;
+        opacity: 0.4;
+      }
+    }
+  }
+  &__book-mark {
+    margin-right: 30px;
+    cursor: pointer;
+  }
+  &__share {
+    cursor: pointer;
+  }
+}

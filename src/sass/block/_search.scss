@@ -1,0 +1,24 @@
+
+.search {
+  margin: 55px 0px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  &__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span {
+      margin-right: -50px;
+      z-index: 2;
+    }
+    &__inp {
+      padding: 18px 60px;
+      background: #F4F4F4;
+      border-radius: 10px;
+      width: 940px;
+      height: 56px;
+      border: 0px solid black;
+    }
+  }
+}
