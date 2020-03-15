@@ -255,6 +255,9 @@
     font-size: 14px;
   }
   .help-client {
+    &__block-1 {
+       display: flex;
+    }
     &__wrap {
       flex-direction: column;
       justify-content: center;

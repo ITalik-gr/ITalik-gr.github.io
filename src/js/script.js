@@ -31,3 +31,18 @@ $('.slider').slick({
   
 });
   
+
+//! Show/Hide
+
+$(document).ready(function(){
+  $("#showHideContent").click(function () {
+      if ($("#wrap").is(":hidden")) {
+          $("#wrap").show("slow");
+      } else {
+          $("#wrap").hide("slow");
+      }
+      return false;
+  });
+});
+
+
