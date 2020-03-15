@@ -255,6 +255,11 @@
     font-size: 14px;
   }
   .help-client {
+    &__wrap {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
     &__title {
       font-size: 26px;
       line-height: 35px;
@@ -293,6 +298,9 @@
     }
   }
   .client {
+    &__text {
+      margin-left: 8px;
+    }
     &__list {
       &__cli {
         border: none!important;
@@ -512,7 +520,7 @@
   .client {
     border-radius: 60px 0px 0px 0px;
     &__wrap {
-      margin: 0 0px auto;
+      margin: 0px 0px 40px auto;
     }
     &__title {
       font-size: 22px;
@@ -591,7 +599,7 @@
   }
   .block__title {
     font-size: 14px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
   }
   .all-article {
     &__article {
@@ -621,12 +629,19 @@
       font-size: 17px;
       margin-bottom: 5px;
     }
+    .container {
+      padding-left: 25px!important;
+    }
     &__form {
+      &__sub {
+        margin-bottom: 0px;
+        font-size: 11px;
+      }
       &__title {
         font-size: 15px;
         margin-bottom: 10px;
       }
-      max-width: 270px;
+      max-width: 300px;
       input,
       textarea {
         padding: 7px 30px;
